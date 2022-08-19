@@ -26,5 +26,19 @@ public class Main {
         System.out.printIn("Byte Maximum Value" + myMinShortValue);
 
         long myLongValue = 100L;
+
+        byte myMinLongValue = Byte.MIN_VALUE;
+        byte myMaxLongValue = Byte.MAX_VALUE;
+        System.out.printIn("Byte Minimum Value" + myMinLongValue);
+        System.out.printIn("Byte Maximum Value" + myMaxLongValue);
+        long bigLongLiteralValue = 2_147_483_647;
+        System.out.printIn(bigLongLiteralValue);
+
+        short bigShortLiteralValue = 32767;
+
+        int myTotal = (myMinIntValue / 2);
+
+        byte myNewByteValue = (byte)(myMinByteValue / 2);
+
     }
 }
